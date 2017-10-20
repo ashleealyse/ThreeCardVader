@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8159A81F1F95352200F58624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159A81E1F95352200F58624 /* AppDelegate.swift */; };
+		8159A8211F95352200F58624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159A8201F95352200F58624 /* ViewController.swift */; };
+		8159A8241F95352300F58624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8159A8221F95352300F58624 /* Main.storyboard */; };
+		8159A8261F95352300F58624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8159A8251F95352300F58624 /* Assets.xcassets */; };
+		8159A8291F95352300F58624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8159A8271F95352300F58624 /* LaunchScreen.storyboard */; };
+		8159A8341F95352300F58624 /* ThreeCardVaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159A8331F95352300F58624 /* ThreeCardVaderTests.swift */; };
+		8159A83F1F95352300F58624 /* ThreeCardVaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159A83E1F95352300F58624 /* ThreeCardVaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8159A8301F95352300F58624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8159A8131F95352200F58624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8159A81A1F95352200F58624;
+			remoteInfo = ThreeCardVader;
+		};
+		8159A83B1F95352300F58624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8159A8131F95352200F58624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8159A81A1F95352200F58624;
+			remoteInfo = ThreeCardVader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8159A81B1F95352200F58624 /* ThreeCardVader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeCardVader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8159A81E1F95352200F58624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8159A8201F95352200F58624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8159A8231F95352300F58624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8159A8251F95352300F58624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8159A8281F95352300F58624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8159A82A1F95352300F58624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8159A82F1F95352300F58624 /* ThreeCardVaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardVaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8159A8331F95352300F58624 /* ThreeCardVaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardVaderTests.swift; sourceTree = "<group>"; };
+		8159A8351F95352300F58624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8159A83A1F95352300F58624 /* ThreeCardVaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardVaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8159A83E1F95352300F58624 /* ThreeCardVaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardVaderUITests.swift; sourceTree = "<group>"; };
+		8159A8401F95352300F58624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8159A84C1F95367900F58624 /* Back Card .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Back Card .jpg"; path = "../../../../../Downloads/Back Card .jpg"; sourceTree = "<group>"; };
+		8159A84D1F95368400F58624 /* L K Card .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "L K Card .png"; path = "../../../../../Downloads/L K Card .png"; sourceTree = "<group>"; };
+		8159A84E1F95368E00F58624 /* L Card .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "L Card .png"; path = "../../../../../Downloads/L Card .png"; sourceTree = "<group>"; };
+		8159A84F1F95369B00F58624 /* Vader Card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Vader Card.jpg"; path = "../../../../../Downloads/Vader Card.jpg"; sourceTree = "<group>"; };
+		8159A8501F95378400F58624 /* Naboo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Naboo.jpg; path = ../../../../../Downloads/Naboo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8159A8181F95352200F58624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159A82C1F95352300F58624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159A8371F95352300F58624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8159A8121F95352200F58624 = {
+			isa = PBXGroup;
+			children = (
+				8159A81D1F95352200F58624 /* ThreeCardVader */,
+				8159A8321F95352300F58624 /* ThreeCardVaderTests */,
+				8159A83D1F95352300F58624 /* ThreeCardVaderUITests */,
+				8159A81C1F95352200F58624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8159A81C1F95352200F58624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8159A81B1F95352200F58624 /* ThreeCardVader.app */,
+				8159A82F1F95352300F58624 /* ThreeCardVaderTests.xctest */,
+				8159A83A1F95352300F58624 /* ThreeCardVaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8159A81D1F95352200F58624 /* ThreeCardVader */ = {
+			isa = PBXGroup;
+			children = (
+				8159A81E1F95352200F58624 /* AppDelegate.swift */,
+				8159A8201F95352200F58624 /* ViewController.swift */,
+				8159A8221F95352300F58624 /* Main.storyboard */,
+				8159A8251F95352300F58624 /* Assets.xcassets */,
+				8159A84F1F95369B00F58624 /* Vader Card.jpg */,
+				8159A8501F95378400F58624 /* Naboo.jpg */,
+				8159A84E1F95368E00F58624 /* L Card .png */,
+				8159A84D1F95368400F58624 /* L K Card .png */,
+				8159A84C1F95367900F58624 /* Back Card .jpg */,
+				8159A8271F95352300F58624 /* LaunchScreen.storyboard */,
+				8159A82A1F95352300F58624 /* Info.plist */,
+			);
+			path = ThreeCardVader;
+			sourceTree = "<group>";
+		};
+		8159A8321F95352300F58624 /* ThreeCardVaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8159A8331F95352300F58624 /* ThreeCardVaderTests.swift */,
+				8159A8351F95352300F58624 /* Info.plist */,
+			);
+			path = ThreeCardVaderTests;
+			sourceTree = "<group>";
+		};
+		8159A83D1F95352300F58624 /* ThreeCardVaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8159A83E1F95352300F58624 /* ThreeCardVaderUITests.swift */,
+				8159A8401F95352300F58624 /* Info.plist */,
+			);
+			path = ThreeCardVaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8159A81A1F95352200F58624 /* ThreeCardVader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8159A8431F95352300F58624 /* Build configuration list for PBXNativeTarget "ThreeCardVader" */;
+			buildPhases = (
+				8159A8171F95352200F58624 /* Sources */,
+				8159A8181F95352200F58624 /* Frameworks */,
+				8159A8191F95352200F58624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeCardVader;
+			productName = ThreeCardVader;
+			productReference = 8159A81B1F95352200F58624 /* ThreeCardVader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8159A82E1F95352300F58624 /* ThreeCardVaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8159A8461F95352300F58624 /* Build configuration list for PBXNativeTarget "ThreeCardVaderTests" */;
+			buildPhases = (
+				8159A82B1F95352300F58624 /* Sources */,
+				8159A82C1F95352300F58624 /* Frameworks */,
+				8159A82D1F95352300F58624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8159A8311F95352300F58624 /* PBXTargetDependency */,
+			);
+			name = ThreeCardVaderTests;
+			productName = ThreeCardVaderTests;
+			productReference = 8159A82F1F95352300F58624 /* ThreeCardVaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8159A8391F95352300F58624 /* ThreeCardVaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8159A8491F95352300F58624 /* Build configuration list for PBXNativeTarget "ThreeCardVaderUITests" */;
+			buildPhases = (
+				8159A8361F95352300F58624 /* Sources */,
+				8159A8371F95352300F58624 /* Frameworks */,
+				8159A8381F95352300F58624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8159A83C1F95352300F58624 /* PBXTargetDependency */,
+			);
+			name = ThreeCardVaderUITests;
+			productName = ThreeCardVaderUITests;
+			productReference = 8159A83A1F95352300F58624 /* ThreeCardVaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8159A8131F95352200F58624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					8159A81A1F95352200F58624 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8159A82E1F95352300F58624 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8159A81A1F95352200F58624;
+					};
+					8159A8391F95352300F58624 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8159A81A1F95352200F58624;
+					};
+				};
+			};
+			buildConfigurationList = 8159A8161F95352200F58624 /* Build configuration list for PBXProject "ThreeCardVader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8159A8121F95352200F58624;
+			productRefGroup = 8159A81C1F95352200F58624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8159A81A1F95352200F58624 /* ThreeCardVader */,
+				8159A82E1F95352300F58624 /* ThreeCardVaderTests */,
+				8159A8391F95352300F58624 /* ThreeCardVaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8159A8191F95352200F58624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8159A8291F95352300F58624 /* LaunchScreen.storyboard in Resources */,
+				8159A8261F95352300F58624 /* Assets.xcassets in Resources */,
+				8159A8241F95352300F58624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159A82D1F95352300F58624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159A8381F95352300F58624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8159A8171F95352200F58624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8159A8211F95352200F58624 /* ViewController.swift in Sources */,
+				8159A81F1F95352200F58624 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159A82B1F95352300F58624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8159A8341F95352300F58624 /* ThreeCardVaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159A8361F95352300F58624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8159A83F1F95352300F58624 /* ThreeCardVaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8159A8311F95352300F58624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8159A81A1F95352200F58624 /* ThreeCardVader */;
+			targetProxy = 8159A8301F95352300F58624 /* PBXContainerItemProxy */;
+		};
+		8159A83C1F95352300F58624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8159A81A1F95352200F58624 /* ThreeCardVader */;
+			targetProxy = 8159A83B1F95352300F58624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8159A8221F95352300F58624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8159A8231F95352300F58624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8159A8271F95352300F58624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8159A8281F95352300F58624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8159A8411F95352300F58624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8159A8421F95352300F58624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8159A8441F95352300F58624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardVader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = access.ThreeCardVader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8159A8451F95352300F58624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardVader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = access.ThreeCardVader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8159A8471F95352300F58624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardVaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = access.ThreeCardVaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardVader.app/ThreeCardVader";
+			};
+			name = Debug;
+		};
+		8159A8481F95352300F58624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardVaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = access.ThreeCardVaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardVader.app/ThreeCardVader";
+			};
+			name = Release;
+		};
+		8159A84A1F95352300F58624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardVaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = access.ThreeCardVaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeCardVader;
+			};
+			name = Debug;
+		};
+		8159A84B1F95352300F58624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardVaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = access.ThreeCardVaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeCardVader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8159A8161F95352200F58624 /* Build configuration list for PBXProject "ThreeCardVader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8159A8411F95352300F58624 /* Debug */,
+				8159A8421F95352300F58624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8159A8431F95352300F58624 /* Build configuration list for PBXNativeTarget "ThreeCardVader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8159A8441F95352300F58624 /* Debug */,
+				8159A8451F95352300F58624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8159A8461F95352300F58624 /* Build configuration list for PBXNativeTarget "ThreeCardVaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8159A8471F95352300F58624 /* Debug */,
+				8159A8481F95352300F58624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8159A8491F95352300F58624 /* Build configuration list for PBXNativeTarget "ThreeCardVaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8159A84A1F95352300F58624 /* Debug */,
+				8159A84B1F95352300F58624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8159A8131F95352200F58624 /* Project object */;
+}
